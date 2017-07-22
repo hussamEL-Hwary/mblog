@@ -24,8 +24,8 @@
 
    <div class="blog-header">
      <div class="container">
-       <h1 class="blog-title">The Bootstrap Blog</h1>
-       <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+       <h1 class="blog-title">awsome competitive programming</h1>
+       <p class="lead blog-description">write your artical in any competitive programming topic </p>
      </div>
    </div>
 
@@ -41,7 +41,6 @@
       </div>
     </div>
 
-       @include('layouts.footer')
 
 
   </body>
