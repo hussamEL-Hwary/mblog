@@ -6,28 +6,21 @@
   <div class="sidebar-module">
     <h4>Archives</h4>
     <ol class="list-unstyled">
-      <li><a href="#">March 2014</a></li>
-      <li><a href="#">February 2014</a></li>
-      <li><a href="#">January 2014</a></li>
-      <li><a href="#">December 2013</a></li>
-      <li><a href="#">November 2013</a></li>
-      <li><a href="#">October 2013</a></li>
-      <li><a href="#">September 2013</a></li>
-      <li><a href="#">August 2013</a></li>
-      <li><a href="#">July 2013</a></li>
-      <li><a href="#">June 2013</a></li>
-      <li><a href="#">May 2013</a></li>
-      <li><a href="#">April 2013</a></li>
+      @foreach($archives as $arc)
+        <li><a href="/home/?month={{ $arc['month'] }}&year={{ $arc['year'] }}"> {{ $arc['month'] }} {{ $arc['year']}}</a></li>
+        @endforeach
     </ol>
   </div>
 
 
   <div class="sidebar-module">
-    <h4>Elsewhere</h4>
+    <h4>contact me</h4>
     <ol class="list-unstyled">
-      <li><a href="#">GitHub</a></li>
-      <li><a href="#">Twitter</a></li>
       <li><a target="_blank" href="https://www.facebook.com/Cando0">Facebook</a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/hossam-el-hwary-336441b7/">LinkedIn</a></li>
+      <li><a target="_blank" href="https://github.com/hussamEL-Hwary">GitHub</a></li>
+      <li><a target="_blank" href="https://www.quora.com/profile/Hossam-Elhwary">Quora</a></li>
+
     </ol>
   </div>
 </div><!-- /.blog-sidebar -->
