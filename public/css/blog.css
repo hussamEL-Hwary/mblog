@@ -8,11 +8,35 @@
   }
 }
 
+
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
 }
+/*start hooss*/
+.اhooss{
+position: relative;
+}
+.اhooss  a{
+text-decoration: none;
+}
 
+.اhooss .drop {
+position: absolute;
+display: none;
+box-shadow: 4px 4px 4px #777;
+}
+.اhooss .drop a{
+display: block;}
+
+.اhooss .drop a:hover{
+background-color: #f1f1f1;
+
+}
+.اhooss:hover .drop{
+display: block;
+}
+/*end hooss*/
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -62,19 +86,7 @@ h6, .h6 {
 .nav-link.active {
   color: #fff;
 }
-.nav-link.active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -.3rem;
-  vertical-align: middle;
-  content: "";
-  border-right: .3rem solid transparent;
-  border-bottom: .3rem solid;
-  border-left: .3rem solid transparent;
-}
+
 
 
 /*
