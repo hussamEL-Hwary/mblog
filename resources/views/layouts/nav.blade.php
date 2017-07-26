@@ -1,30 +1,22 @@
 <div class="blog-masthead">
-    <div class="container">
-      <nav class="nav blog-nav">
+      <div class="container">
+        <nav class="nav blog-nav">
           <a class="nav-link active" href="/home">Home</a>
-                @if (Auth::guest())
-                      <li>   <a class="nav-link ml-auto" href="{{ route('login') }}">Login</a></li>
-                      <li>   <a  class="nav-link ml-auto" href="{{ route('register') }}">Register</a></li>
 
-                @else
-                        <li class="dropdown">
-                          <a class="nav-link" href="#"  data-toggle="dropdown" role="button" aria-expanded="false">
-                              {{ Auth::user()->name }} <span class="caret"></span>
-                          </a>
+          @if (Auth::guest())
+                    <a class="nav-link active ml-auto" href="{{ route('login') }}">Login</a>
+                    <li> <a  class="nav-link active ml-auto" href="{{ route('register') }}">Register</a></li>
 
+              @else
+              <a class="nav-link active ml-auto" href="#">Hi,&nbsp; {{ Auth::user()->name }}</a>
+              <li> <a  class="nav-link active ml-auto" href="{{ route('logout') }}"  onclick="event.preventDefault();
+                                   document.getElementById('logout-form').submit();">logout</a></li>
 
-                          <a href="{{ route('logout') }}"
-                              onclick="event.preventDefault();
-                                   document.getElementById('logout-form').submit();">
-                                            Logout
-                          </a>
-                          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 {{ csrf_field() }}
-                          </form>
-                            </li>
-                              </ul>
-                                </li>
-                @endif
+                </form>
+             @endif
+
         </nav>
       </div>
     </div>
