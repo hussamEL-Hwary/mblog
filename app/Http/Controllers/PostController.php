@@ -43,7 +43,7 @@ class PostController extends Controller
         'body' =>request('body'),
         'user_id'=>auth()->id()
       ]);
-
+      session()->flash('message','your post has been published');
       return redirect('/home');
     }
 }
