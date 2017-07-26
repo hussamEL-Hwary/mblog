@@ -3,7 +3,7 @@
           <p class="blog-post-meta">
             {{$post->user->name}} on
             {{$post->created_at->toFormattedDateString()}}
-          <a target="_blank" href="https://www.facebook.com/cando0"> Hossam</a> </p>
+        
 
            {{ $post->body }}
 
