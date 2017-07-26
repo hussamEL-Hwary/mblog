@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>connectall</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -22,10 +22,16 @@
 
    @include('layouts.nav')
 
+   @if($flash=session('message'))
+   <div id="flash-message" class="alert alert-success" role="alert">
+     {{ $flash }}
+   </div>
+
+   @endif
    <div class="blog-header">
      <div class="container">
        <h1 class="blog-title">awsome competitive programming</h1>
-       <p class="lead blog-description">write your artical in any competitive programming topic </p>
+       <p class="lead blog-description"> register and write your artical in any competitive programming topic </p>
      </div>
    </div>
 
