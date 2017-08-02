@@ -51,8 +51,12 @@ class RegisterController extends Controller
             'name' => 'required|string|max:100',
             'email' => 'required|string|email|max:100|unique:users',
             'password' => 'required|string|min:6|confirmed',
+            'g-recaptcha-response' => 'required|captcha',
         ]);
     }
+
+
+
 
     /**
      * Create a new user instance after a valid registration.
