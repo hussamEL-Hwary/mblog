@@ -37,12 +37,34 @@ and comment on posts
 
 
 ### Routes
+#### Authentication Routes
+* ```/login```
+* ```/logout```
+* ```/login/facebook```
+* ```/register```
+* ```/password/email```
+* ```/password/reset```
 
-
-
+#### User Routes
+* ```/home```
+* ```/posts```
+* ```/posts/create```
+* ```posts/{post}/comment``` 
 
 ### Socialite
+#### Get Socialite Login API Keys:
+* [Google Captcha API](https://www.google.com/recaptcha/admin#list)
+* [Facebook API](https://developers.facebook.com/)
+##### and many others if you want to use
+* [Twitter API](https://apps.twitter.com/)
+* [Google &plus; API](https://console.developers.google.com/)
+* [GitHub API](https://github.com/settings/applications/new)
+* [YouTube API](https://developers.google.com/youtube/v3/getting-started)
+* [Twitch TV API](http://www.twitch.tv/kraken/oauth2/clients/new)
+* [Instagram API](https://instagram.com/developer/register/)
 
 
 
 ### Screenshots
+
+![home]()
