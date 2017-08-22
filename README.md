@@ -1,7 +1,7 @@
-####blog build with laravel 5.4 user Registration, create posts,
-##comment on posts and login with facebook
+#### blog build with laravel 5.4 user Registration, create posts,
+#### comment on posts and login with facebook
 
-##READY FOR USE.
+## READY FOR USE.
 
 - [About](#about)
 - [Features](#features)
