@@ -67,5 +67,22 @@ and comment on posts
 
 ### Screenshots
 
-![home]()
+![home](https://github.com/hussamEL-Hwary/mblog/blob/master/public/screenshots/blog1.png)
 
+<br />
+<br />
+Register
+
+![register](https://github.com/hussamEL-Hwary/mblog/blob/master/public/screenshots/blog2.png)
+
+<br />
+<br />
+Login
+
+![login](https://github.com/hussamEL-Hwary/mblog/blob/master/public/screenshots/blog3.png)
+
+<br />
+<br />
+Create Post
+
+![post](https://github.com/hussamEL-Hwary/mblog/blob/master/public/screenshots/blog4.png)
