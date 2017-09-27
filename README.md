@@ -21,7 +21,7 @@ and comment on posts
 
 | mblog Features  |
 | :------------ |
-|Built on [Laravel](http://laravel.com/) 5.4|
+|Built with [Laravel](http://laravel.com/) 5.4|
 |Uses [MySQL](https://github.com/mysql) Database|
 |Uses [Artisan](http://laravel.com/docs/5.4/artisan) to manage database migration|
 |Dependencies are managed with [COMPOSER](https://getcomposer.org/)|
